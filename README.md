@@ -7,10 +7,14 @@
 *   **Student ID:** 2024435248
 *   **Course:** CSC649 Special Topics in Computer Science (Assignment 1)
 
+## Status
+Work in Progress
+
 ## Problem Statement
 Agile software development teams and their stakeholders frequently struggle with inaccurate release forecasting because they rely on simple deterministic baselines, such as dividing remaining work by the team's historical average velocity. This method falsely assumes a perfectly smooth process and ignores real-world bottlenecks, leading to the "Flaw of Averages" where promised delivery dates have a very low probability of actual success. Consequently, projects are frequently delayed, and teams lack a mathematical way to explain schedule uncertainty or true project risk to their clients. 
 
-## Project Links
-* [Problem Statement](./docs/problem-statement.md)
+## Documents
 * [Requirements](./docs/requirements.md)
 * [User Stories](./docs/user-stories.md)
+* [Technology Concepts](./docs/technology.md)
+* [Sprint Log](./docs/sprint-log.md)
