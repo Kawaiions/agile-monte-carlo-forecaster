@@ -17,9 +17,9 @@ By the end of this lab, my user stories will have complete acceptance criteria, 
 - Standup 2: I added the acceptance criteria to docs/user-stories.md and numbered the requirements. Next is updating the README. No current blockers
 
 ### Sprint review
-I finished updating the user stories and requirements markdown files, created the three GitHub issues and updated the README structure. I showed my completed Sprint 1 project board and closed issues to my partner.
+I successfully finished all three sprint tasks: adding acceptance criteria to user stories, numbering the requirements, and updating the README structure. I showed my partner my completed project board with all three cards in the Done column, as well as the three merged pull requests. Nothing was left unfinished.
 
 ### Retrospective
-- What went well: Since we already drafted the user stories, acceptance criteria and requirements, completing issues #1 and #2 was very fast
-- What was difficult: Navigating the GitHub Projects tab to set up the board and link the issues for the first time took a few extra minutes
-- What I will change next time: I will review the required starter templates before the lab starts to save time on formatting
+- What went well: Working through the branch and pull request cycle became much faster and easier after completing the first task.
+- What was difficult: Understanding why GitHub said there was nothing to compare when I forgot to save the file edits on the new branch.
+- What I will change next time: I will double-check that my markdown files are fully saved with modifications before I run the `git add` and `git commit` commands.
