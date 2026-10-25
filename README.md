@@ -1,20 +1,41 @@
-# Development and Evaluation of a Monte Carlo Based Backlog Completion Forecasting System
+* # Development and Evaluation of a Monte Carlo Based Backlog Completion Forecasting System
 
 **Summary:** A predictive analytics system that uses Monte Carlo simulations on historical throughput data to forecast multi-sprint Agile backlog completion with statistical confidence.
 
-## Author
-**Muhammad Ibrahim Shah Bin Abdul Razak**
-*   **Student ID:** 2024435248
-*   **Course:** CSC649 Special Topics in Computer Science (Assignment 1)
-
-## Status
-Work in Progress
-
-## Problem Statement
-Agile software development teams and their stakeholders frequently struggle with inaccurate release forecasting because they rely on simple deterministic baselines, such as dividing remaining work by the team's historical average velocity. This method falsely assumes a perfectly smooth process and ignores real-world bottlenecks, leading to the "Flaw of Averages" where promised delivery dates have a very low probability of actual success. Consequently, projects are frequently delayed, and teams lack a mathematical way to explain schedule uncertainty or true project risk to their clients. 
+### Problem Statement
+Software development teams routinely fail to deliver project backlogs within predicted timeframes. The underlying issue is the use of single point estimation methods which assume that all scope changes are known in advance. All team members' capabilities are fixed and all team member interdependencies are known.  Software backlog items vary widely in complexity, uncertainty and actual effort required. When teams aggregate subjective estimates, they fail to model the long tail risks inherent to software delivery. Consequently, project leads and executive sponsors are committing to best case scenarios and not statistically realistic.
 
 ## Documents
 * [Requirements](./docs/requirements.md)
 * [User Stories](./docs/user-stories.md)
 * [Technology Concepts](./docs/technology.md)
 * [Sprint Log](./docs/sprint-log.md)
+
+## Project structure
+```
+.
+|-- README.md
+|-- .gitignore
+|-- docs/
+|   |-- problem-statement.md
+|   |-- requirements.md
+|   |-- sprint-log.md
+|   |-- technology.md
+|   |-- user-stories.md
+|-- src/
+    |-- README.md      (code will go here)
+```
+
+## Roadmap
+- [x] Problem statement written
+- [x] Requirements numbered and linked to user stories
+- [x] User stories have acceptance criteria
+- [x] Specialized technology chosen and explained
+- [ ] First prototype (later in the semester)
+
+## Status
+Sprint completed
+
+## Author
+Muhammad Ibrahim Shah Bin Abdul Razak
+
