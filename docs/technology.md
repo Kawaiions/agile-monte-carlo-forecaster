@@ -40,8 +40,7 @@ The **Monte Carlo approach** is the clear choice. Deterministic forecasting is f
 ```mermaid
 graph TD
     subgraph Data Ingestion
-        A[Jira / GitHub REST API] --> C{Data Sanitization}
-        B[CSV Telemetry Upload] --> C
+        B[CSV Telemetry Upload] --> C{Data Sanitization}
     end
 
     subgraph Simulation Engine
